@@ -1,0 +1,46 @@
+First of all: this project took me so long with quite a few errors:
+
+1. getting Objects are not valid as a React Child error.
+=> Not loading initial time so i had to set an if statement only if questions weren't null/undefined it 
+would run and create a quiz element.
+
+2.
+
+3.
+
+4.
+
+//////////
+Annoying Problems:
+
+Scrimba refreshed and my data was not saved properly, 
+and I basically had to restart my project
+
+I had to then setup vite and react using node and i've never done that before, so took a while
+
+Thinking how to use state and useEffect to map out the entire website was very interesting, I had to 
+rethink and move a lot of components/functions around.
+
+I would Refactor the code, and cause some new errors, which took some time to fix.
+
+
+Things I considered while doing this project: 
+
+//style logic : 
+// If quiz is not finished : background: normal
+// if quiz is not finished and selected: background lightblue
+// if quiz is finished and not selected and not correct: use default  
+// if quiz is finished and selected and wrong: background: opacity green
+// if quiz is finished and selected and correct: background: light green
+
+if question.answers = answersArray
+setQuestions = [...prevQuestions, question.answer[index].selected = true
+question.answer.index[selected] = true ]
+
+shuffle array algorithm - Fisher Yates Shuffle Algorithm[improvised]
+    1.Start index at max index. then roll a random number between 0 and max index
+    2.Remove the object/variable at the index, and push it to a new array.
+
+The page was showing &quot; instead of ["], and others for [',`] etc.  
+Used htmlentites decode to fix that. thanks @Misty from Scrimba discord for helping with that.
+
